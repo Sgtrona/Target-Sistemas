@@ -1,0 +1,22 @@
+var fibonacci = [];
+fibonacci[0] = 0;
+fibonacci[1] = 1;
+var numero = 15;
+
+console.log(fibonacci[0]);
+console.log(fibonacci[1]);
+
+for (var i = 2; i < 10; i++) {
+  fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+  console.log(fibonacci[i]);
+
+ 
+}
+
+if(fibonacci.includes(numero)){
+    console.log("Numero = ", numero ," este número esta na sequencia");
+  }else{
+    console.log("Numero = ", numero ,"este numero não esta na sequencia");
+  }
+
+

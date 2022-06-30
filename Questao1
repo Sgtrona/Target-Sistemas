@@ -1,0 +1,13 @@
+
+//Exercicio 01 SOMA
+// Luiz Felipe
+
+var indice = 13;
+var SOMA = 0, K=0;
+
+while(K < indice){
+K = K+1;
+SOMA = SOMA + K;
+}
+
+console.log("Soma:"+ SOMA);
